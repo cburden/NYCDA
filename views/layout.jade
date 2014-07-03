@@ -1,8 +1,11 @@
 doctype html
 html
-	head
-		title sft.edu
-		link(rel='stylesheet', href='/css/output.css')
+	include include/head
 	body
-		block content
-		script(src='js/bundle.js', type='text/javascript')
+		#container
+			include layout/header
+			include layout/sideNav
+			#content
+				block content
+			include layout/footer
+			include include/scripts

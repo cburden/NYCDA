@@ -1,0 +1,77 @@
+$footer_color: #fff;
+$footer_text_color: #999;
+
+footer{
+	
+	font-size: .8em;
+	color: $footer_text_color;
+	clear: both;
+	display: block;
+	overflow: hidden;
+	padding-top: 20px;
+	ul{
+		margin: 0;
+		padding-left: 20px;
+		li{
+			list-style: none;
+			display: inline-block;
+		}
+
+		&#contact-info{
+			margin-bottom: 10px;
+			li{
+				padding:3px 12px;
+				font-weight:bold;
+				color:$footer_color;
+				&#email{background:#8CC63F;}
+				&#phone{background:#6E298D;}
+				&#address{background:#EB008B;
+					address{
+						font-style: normal;
+						margin: 0;
+						padding: 0;
+					}
+				}
+				a{
+					color:$footer_color; 
+					text-decoration:none;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+			}
+		}
+
+		&#site-info{
+			float: right;
+			padding:0 20px 0 0;
+			font-size: .9em;
+			li{
+				padding:0 0px 0 12px;
+				a{
+					text-decoration: none;
+					color: $footer_text_color;
+					display: block;
+					padding-right: 12px;
+					border-right: solid thin $footer_text_color;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+				&.last a{
+						border-right: none;
+					}
+			}
+		}
+	}
+
+
+	#copyright{
+		padding: 0px 0 5px 20px;
+		font-size: .9em;
+		float: left;
+		&:after{
+			content: "© 2008 The New York Conservatory for Dramatic Arts";
+		}
+	}
+}

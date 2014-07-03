@@ -1,0 +1,28 @@
+header{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 10px;
+	#logo{
+		float: left;
+		margin: 0 15px;
+	}
+	#navButtons{
+		float: right;
+		ul{
+			margin: 0;
+			padding: 0;
+			li{
+				list-style: none;
+				float: left;
+				position: relative;
+				top: -51px;
+				-webkit-transition: top .5s; /* For Safari 3.1 to 6.0 */
+    			transition: top .5s;
+				&:hover{
+					top: 0;
+				}
+			}
+		}
+	}
+}

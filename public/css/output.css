@@ -1,2 +1,115 @@
+@charset "IBM437";
 body {
-  background-color: #eeeeee; }
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em; }
+
+#container {
+  background-color: white;
+  display: block;
+  overflow: hidden;
+  width: 940px;
+  margin: 0 auto; }
+
+header {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 10px; }
+  header #logo {
+    float: left;
+    margin: 0 15px; }
+  header #navButtons {
+    float: right; }
+    header #navButtons ul {
+      margin: 0;
+      padding: 0; }
+      header #navButtons ul li {
+        list-style: none;
+        float: left;
+        position: relative;
+        top: -51px;
+        -webkit-transition: top .5s;
+        /* For Safari 3.1 to 6.0 */
+        transition: top .5s; }
+        header #navButtons ul li:hover {
+          top: 0; }
+
+footer {
+  font-size: .8em;
+  color: #999999;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  padding-top: 20px; }
+  footer ul {
+    margin: 0;
+    padding-left: 20px; }
+    footer ul li {
+      list-style: none;
+      display: inline-block; }
+    footer ul#contact-info {
+      margin-bottom: 10px; }
+      footer ul#contact-info li {
+        padding: 3px 12px;
+        font-weight: bold;
+        color: white; }
+        footer ul#contact-info li#email {
+          background: #8CC63F; }
+        footer ul#contact-info li#phone {
+          background: #6E298D; }
+        footer ul#contact-info li#address {
+          background: #EB008B; }
+          footer ul#contact-info li#address address {
+            font-style: normal;
+            margin: 0;
+            padding: 0; }
+        footer ul#contact-info li a {
+          color: white;
+          text-decoration: none; }
+          footer ul#contact-info li a:hover {
+            text-decoration: underline; }
+    footer ul#site-info {
+      float: right;
+      padding: 0 20px 0 0;
+      font-size: .9em; }
+      footer ul#site-info li {
+        padding: 0 0px 0 12px; }
+        footer ul#site-info li a {
+          text-decoration: none;
+          color: #999999;
+          display: block;
+          padding-right: 12px;
+          border-right: solid thin #999999; }
+          footer ul#site-info li a:hover {
+            text-decoration: underline; }
+        footer ul#site-info li.last a {
+          border-right: none; }
+  footer #copyright {
+    padding: 0px 0 5px 20px;
+    font-size: .9em;
+    float: left; }
+    footer #copyright:after {
+      content: "© 2008 The New York Conservatory for Dramatic Arts"; }
+
+#sideNav {
+  display: block;
+  overflow: hidden;
+  font-size: .8em;
+  float: left;
+  border-right: 2px solid #c0edf2;
+  padding-top: 20px; }
+  #sideNav ul {
+    margin: 0;
+    padding: 0 0 0 30px; }
+    #sideNav ul li {
+      list-style: none;
+      padding-bottom: 12px;
+      width: 175px; }
+      #sideNav ul li a {
+        text-decoration: none;
+        color: #666666; }
+        #sideNav ul li a:hover {
+          color: #6e298d; }

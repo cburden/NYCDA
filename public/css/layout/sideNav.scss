@@ -1,0 +1,29 @@
+$nav_color: #666;
+$nav_color_hover: #6e298d;
+$border_color: #c0edf2;
+
+#sideNav{
+	display: block;
+	overflow: hidden;
+	font-size: .8em;
+	
+	float: left;
+	border-right: 2px solid $border_color;
+	padding-top: 20px;
+	ul{
+		margin: 0;
+		padding: 0 0 0 30px;
+		li{
+			list-style: none;
+			padding-bottom: 12px;
+			width: 175px;
+			a{
+				text-decoration: none;
+				color: $nav_color;
+				&:hover{
+					color: $nav_color_hover;
+				}
+			}
+		}
+	}
+}
