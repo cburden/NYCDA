@@ -1,5 +1,8 @@
 $background_color: #eeeeee;
 $container_color: #ffffff;
+$list_number_color: #F8981D;
+$list_header_color: #6e298c;
+$font_color: #666;
 
 body{
 	background-color: $background_color;
@@ -17,8 +20,42 @@ body{
 	margin: 0 auto;
 }
 
+.content{
+	display: block;
+	margin: 0;
+	padding: 10px;
+	overflow: hidden;
+}
+
 @import 'layout/header';
 
 @import 'layout/footer';
 
 @import 'layout/sideNav';
+
+p{
+	line-height: 1.6em;
+	margin: 0 0 12px 0;
+	font-size: .9em;
+}
+
+ol{
+ 	li{
+		font-weight: bold;
+		padding-bottom: 10px;
+ 		color: $list_number_color;
+
+	 	span{
+			color: $list_header_color;
+		
+			p{
+				font-weight: normal;
+				color: $font_color;
+			}
+	 	}
+	}
+}
+
+h4{
+	color: $list_header_color;
+}
