@@ -1,0 +1,59 @@
+module.exports = [
+	{
+		"text":"About Us",
+		"href":"/about"
+	},
+	{
+		"text":"Professional<br>Training Programs",
+		"href":"/"
+	},
+	{
+		"text":"Summer Program",
+		"href":"/"
+	},
+	{
+		"text":"Apply Now",
+		"href":"/"
+	},
+	{
+		"text":"Audition Schedule",
+		"href":"/"
+	},
+	{
+		"text":"Scholarships +<br>Financial Aid",
+		"href":"/"
+	},
+	{
+		"text":"Alumni",
+		"href":"/"
+	},
+	{
+		"text":"Request Information",
+		"href":"/"
+	},
+	{
+		"text":"Student Services",
+		"href":"/"
+	},
+	{
+		"text":"General Information /<br>Policies",
+		"href":"/"
+	},
+	{
+		"text":"Acting Tips",
+		"href":"/"
+	},
+	{
+		"text":"Contact Us",
+		"href":"/"
+	},
+	{
+		"text":"Job Seekers",
+		"href":"/"
+	},
+	{
+		"text":"Online Store",
+		"href":"/"
+	},
+	
+];
