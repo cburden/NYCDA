@@ -1,6 +1,8 @@
 $nav_color: #666;
 $nav_color_hover: #6e298d;
 $border_color: #c0edf2;
+$nav_width: 175px;
+$sub_underline: #C0C0C0;
 
 .sideNav{
 	display: block;
@@ -15,14 +17,26 @@ $border_color: #c0edf2;
 		padding: 0 0 0 30px;
 		li{
 			list-style: none;
-			padding-bottom: 12px;
-			width: 175px;
+			padding: 6px 0;
+			width: $nav_width;
 			a{
 				text-decoration: none;
 				color: $nav_color;
 				&:hover{
 					color: $nav_color_hover;
 				}
+			}
+		}
+	}
+	ul#sub-nav{
+		li{
+			text-align: right;
+			border-bottom: thin solid $sub_underline;
+			margin-right: 20px;
+			width: $nav_width - 20px;
+			a{
+				padding-right: 0px;
+
 			}
 		}
 	}

@@ -8,9 +8,15 @@ block page
 		|Overall direction flows from seven master teachers who work both as department heads and class instructors. They work closely with the adjunct faculty, whose expertise in specific disciplines transcends acting to include dance, directing, casting and producing. All are available to students, inside and outside the classroom, for personal advice and direction. Because part of our mission is to expose you to the diverse realities of our industry, we also regularly bring in accomplished guest instructors to give seminars. You will have opportunities to meet and learn from industry leaders, including directors, talent agents, casting directors, managers, producers and cinematographers, as well as actors. Recent guest lecturers have included Academy Award winners Alan Ball and Olympia Dukakis.
 
 	each person in faculty
-		dl
+		dl.bio
 			dt
-				h4= person.firstName + ' ' + person.lastName
-				h5= person.title
-				dd
-					p= person.bio
+				if person.image
+					span.admin
+						img(src='#{person.image}')
+						h4= person.firstName + ' ' + person.lastName
+						h5= person.title
+				else
+					h4= person.firstName + ' '
+						span.lastName= person.lastName
+			dd
+				p= person.bio

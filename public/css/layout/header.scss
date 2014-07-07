@@ -1,3 +1,11 @@
+$degree_color: #00b9e8;
+$request_color: #027dcb;
+$audition_color: #d33aae;
+$account_color: #791376;
+
+$button_width: 102px;
+$left_padding: 10px;
+
 header{
 	clear: both;
 	display: block;
@@ -14,13 +22,50 @@ header{
 			padding: 0;
 			li{
 				list-style: none;
-				float: left;
 				position: relative;
-				top: -51px;
+				top: -60px;
+				display: inline-block;
+				width: $button_width;
+				height: 100px;
+				margin: 0 10px;
+				box-shadow: 2px 2px 5px #888888;
 				-webkit-transition: top .5s; /* For Safari 3.1 to 6.0 */
     			transition: top .5s;
 				&:hover{
 					top: 0;
+				}
+				img{
+					position: absolute;
+					top:0;
+					left:0;
+				}
+				a{
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					color: white;
+					text-decoration: none;
+					width: $button_width - $left_padding;
+					height: 35px;
+					font-size: .75em;
+					font-weight: bold;
+					text-transform: uppercase;
+					padding: 5px 0 0 $left_padding;
+					vertical-align: text-bottom;
+					text-shadow: 1px 1px #888888;
+
+				}
+				&#degree_btn a{
+					background-color: $degree_color;
+				}
+				&#audition_btn a{
+					background-color: $audition_color;
+				}
+				&#account_btn a{
+					background-color: $account_color;
+				}
+				&#request_btn a{
+					background-color: $request_color;
 				}
 			}
 		}

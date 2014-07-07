@@ -1,27 +1,24 @@
 var router = require('express').Router();
 
-var facultyData = require('../data/faculty.json');
-var advantageData = require('../data/advantage.json');
-
 
 router.get('/faculty', function(req, res){
-	res.render('about/faculty',{faculty: facultyData});
+	res.redirect('about/faculty');
 })
 
 router.get('/degree-granting', function(req, res){
-	res.render('about/degree-granting');
+	res.redirect('about/degree-granting');
 })
 
 router.get('/accreditation', function(req, res){
-	res.render('about/accreditation');
+	res.redirect('about/accreditation');
 })
 
 router.get('/advantage', function(req, res){
-	res.render('about/advantage', {data: advantageData});
+	res.redirect('about/advantage');
 })
 
 router.get('/mission', function(req, res){
-	res.render('about/mission');
+	res.redirect('about/mission');
 })
 
 router.get('/', function(req, res){	

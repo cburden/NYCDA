@@ -3,12 +3,14 @@
 		"firstName"	: "Richard",
 		"lastName" 	: "Omar",
 		"title"		: "Director of Education",
+		"image"		: "../images/richard_omar.jpg",
 		"bio"		: "Richard Omar received his training at Hofstra University and from Uta Hagen and Bobby Lewis in NYC. New York theater credits include Dracula in Dance with Me, Harker (New York International Fringe Festival), Rick in the world premiere of Theresa Rebeck’s The First Day, Wes in the NYC premiere of Beth Henley’s Lost (Theatre 4), Richard Loeb in Never the Sinner (The Directors Company), Bunny in The Secret History (The Directors Company), Hastings in Richard III with Austin Pendleton, Sherwood in Fruit Bat Safari Camp with Sally Mayes and Julie Halston. Richard was featured in The Unofficial New York Yale Cabaret’s tribute to Wendy Wasserstein (Wendy’s Words) at the Laurie Beechman Theater. As a ballroom dancer, he appeared on film with Leslie Caron, Patrick Stewart and Jennifer Beals. He has taught at the New Actors Workshop for Mike Nichols and George Morrison, at SUNY Purchase and at Hofstra University."
 	},
 	{
 		"firstName"	: "Jay R.",
 		"lastName" 	: "Goldenberg",
 		"title"		: "Associate Director of Education",
+		"image"		: "../images/jay_goldberg.jpg",
 		"bio"		: "Jay Goldenberg received his MFA in acting from New York University School of the Arts and has worked as an actor, teacher and director. Jay has coached on the sets of features, miniseries, sitcoms and daytime drama. Some of the projects he has worked on are Say Anything with John Cusack and Ione Skye, the miniseries Elvis and Me, the TV series Moonlighting with Bruce Willis and Cybill Shepherd and the daytime drama General Hospital. Some of his private clients have included Salma Hayek, Cybill Shepherd, Alicia Silverstone, Estelle Getty, Michael Chiklis, Charles Kimbrough, Beth Howland, Ione Skye, Mary Wilson, Eric Close, Allyce Beasley, Trevor St. John, Nicollette Sheridan and several other actors working as principals in both film and television."
 	},
 	{

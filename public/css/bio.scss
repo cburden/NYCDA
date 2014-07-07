@@ -1,0 +1,45 @@
+$admin_name_color: #eb008b;
+$admin_title_color: #6E298D;
+
+.bio{
+	padding-bottom: 20px;
+	dt{
+		clear: both;
+		display: block;
+		overflow: hidden;
+		padding: 0 0 10px 0;
+		h4{
+			margin: 0;
+			padding: 0;
+			text-transform: uppercase;
+			.lastName{
+				color:$admin_name_color;
+			}
+		}
+	}
+	dd{
+		margin: 0;
+
+		p{
+			padding: 0;
+			margin: 0;
+		}
+	}
+	.admin{
+		img{
+			float: left;
+			padding-right: 10px;
+		}
+		h4{
+			color: $admin_name_color;
+			text-transform: uppercase;
+			margin: 0;
+			padding: 40px 0 0 0;
+		}
+		h5{
+			color: $admin_title_color;
+			margin: 0;
+			padding: 0;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+extends index
+
+block page
+	p
+		|Each year at NYCDA, we travel and search for the most passionate and promising young actors around the country. It's a lot of work, but truly a labor of love. Whether at thespian festivals, our audition cities or here at NYCDA, we see and audition thousands of students, but ultimately allow a select few into our acting school. Here, you'll find an environment with faculty and staff who take the success of every student personally. We understand that you're entrusting us with your dream, and we take that responsibility seriously. We invite you to discover a blend of advantages unmatched anywhere in the world.
+
+	ol
+		each post in data
+			li
+				span= post.heading
+				p= post.body

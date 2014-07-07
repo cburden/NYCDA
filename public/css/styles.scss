@@ -23,7 +23,7 @@ body{
 .content{
 	display: block;
 	margin: 0;
-	padding: 10px;
+	padding: 0 10px 10px 0;
 	overflow: hidden;
 }
 
@@ -33,9 +33,11 @@ body{
 
 @import 'layout/sideNav';
 
+@import 'bio';
+
 p{
 	line-height: 1.6em;
-	margin: 0 0 12px 0;
+	margin: 10px 0 12px 20px;
 	font-size: .9em;
 }
 
@@ -47,15 +49,16 @@ ol{
 
 	 	span{
 			color: $list_header_color;
-		
-			p{
-				font-weight: normal;
-				color: $font_color;
-			}
-	 	}
+		}
+		p{
+			font-weight: normal;
+			color: $font_color;
+		}
+	 	
 	}
 }
 
 h4{
 	color: $list_header_color;
+	margin-left: 20px;
 }
